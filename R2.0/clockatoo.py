@@ -5,7 +5,7 @@ import datetime
 from Raspi_7Segment import SevenSegment
 
 # ===========================================================================
-# Clock Example
+# Clockatoo
 # ===========================================================================
 segment = SevenSegment(address=0x70)
 

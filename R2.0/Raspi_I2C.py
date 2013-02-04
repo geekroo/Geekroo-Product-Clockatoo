@@ -8,7 +8,7 @@ import smbus
 
 class Raspi_I2C :
 
-  def __init__(self, address, bus=smbus.SMBus(0), debug=False):
+  def __init__(self, address, bus=smbus.SMBus(1), debug=False):
     self.address = address
     self.bus = bus
     self.debug = debug
